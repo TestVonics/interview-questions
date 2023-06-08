@@ -4,7 +4,7 @@
 #include "utility.hpp"
 #include "MyClass.hpp"
 
-int main(int, char* argv[])
+int main(int argc, char* argv[])
 {
 	unsigned long count = std::strtoul(argv[1], nullptr, 10);
 
