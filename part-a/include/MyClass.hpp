@@ -4,11 +4,9 @@
 class MyClass
 {
 public:
-	void setDatum(int);
+	void setDatum(const int new_datum);
 	int getDatum() const;
 
 private:
 	int *datum;
 };
-
-std::ostream& operator<<(std::ostream& os, const MyClass& mc);

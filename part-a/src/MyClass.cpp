@@ -9,9 +9,3 @@ int MyClass::getDatum() const
 {
     return *datum;
 }
-
-std::ostream& operator<<(std::ostream& os, const MyClass& mc)
-{
-    os << mc.getDatum();
-    return os;
-}
